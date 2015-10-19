@@ -1,6 +1,6 @@
 package src.tests;
 
-import src.shapes.Circle;
+import src.shapes.*;
 
 public class Test {
 
