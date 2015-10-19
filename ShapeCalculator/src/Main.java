@@ -1,4 +1,7 @@
+package src;
 import java.util.logging.Logger;
+
+import src.shapes.Circle;
 
 public class Main {
 
@@ -24,7 +27,7 @@ public class Main {
 		log(s.getVolume());
 
 	}
-	private void log(double i){
+	private static void log(double i){
 		System.out.println(i);
 	}
 
