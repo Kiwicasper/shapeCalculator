@@ -5,4 +5,4 @@
  * @author Christian
  *
  */
-package tests;
+package src.tests;
