@@ -1,5 +1,7 @@
 package src;
-import java.util.logging.Logger;
+
+
+
 import src.shapes.*;
 
 public class Main {
@@ -13,9 +15,9 @@ public class Main {
 		log(t.getArea());
 		log(t.getPerimeter());
 		
-		Ellipse e = new ellipse(23.4,56.4);
-		log(e.getArea); //Major axis, minor axis
-		log(e.getPerimeter); //Width, height
+		Ellipse e = new Ellipse(23.4,56.4);
+		log(e.getArea()); //Major axis, minor axis
+		log(e.getPerimeter()); //Width, height
 		
 		Prism p = new Prism(123.4,new Trapez(123.5,235.1));//Height and base/top
 		log(p.get.SurfaceArea());
@@ -26,7 +28,7 @@ public class Main {
 		log(s.getVolume());
 
 	}
-	private void log(double i){
+	private static void log(double i){
 		System.out.println(i);
 	}
 
