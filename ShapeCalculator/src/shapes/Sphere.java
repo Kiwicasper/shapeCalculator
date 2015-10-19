@@ -6,10 +6,10 @@ public class Sphere {
 	public Sphere(double radius){
 		this.radius = radius;
 	}
-	public double SurfaceArea(){
+	public double getSurfaceArea(){
 		return 4*Math.PI*Math.pow(radius, 2);
 	}
-	public double Volume(){
+	public double getVolume(){
 		return (4/3)*Math.PI*Math.pow(radius, 3);
 	}
 }
