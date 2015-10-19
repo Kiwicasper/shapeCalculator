@@ -1,4 +1,6 @@
+package src;
 import java.util.logging.Logger;
+import src.shapes.*;
 
 public class Main {
 

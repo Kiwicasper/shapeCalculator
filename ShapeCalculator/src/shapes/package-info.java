@@ -5,4 +5,4 @@
  * @author Christian
  *
  */
-package shapes;
+package src.shapes;
