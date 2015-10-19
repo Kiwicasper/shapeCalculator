@@ -1,7 +1,5 @@
 package src;
 
-
-
 import src.shapes.*;
 
 public class Main {
